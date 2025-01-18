@@ -1,0 +1,90 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  background-color: #cbc8c8;
+  font-weight: bold;
+}
+
+.card_special {
+  transform: scale(1.05);
+  box-shadow: rgb(252, 252, 251) 0px 0px 30px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  color: white;
+  gap: 5px;
+}
+
+.card__header-blue {
+  background-color: #0f7885;
+}
+
+.card__header-green {
+  background-color: #04795f;
+}
+
+.card__header-red {
+  background-color: #a9433c;
+}
+
+.card__header-black {
+  background-color: black;
+}
+
+.card__body {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+  margin-top: 2px;
+}
+
+.card__body-blue {
+  background-color: #40a6b3;
+}
+
+.card__body-green {
+  background-color: #39a188;
+}
+
+.card__body-red {
+  background-color: #d5635a;
+}
+
+.card__body-black {
+  background-color: #454545;
+}
+
+.card__currency {
+  font-size: 11px;
+  align-self: flex-start;
+}
+
+.card__price {
+  font-size: 40px;
+}
+
+.card__period {
+  font-size: 11px;
+  align-self: flex-end;
+}
+
+.card__description {
+  text-align: center;
+  color: #7b8186;
+}
+
+.card__footer {
+  padding: 10px;
+
+  background-color: #eeeeee;
+
+  text-align: center;
+  line-height: 170%;
+  color: #7b8186;
+}

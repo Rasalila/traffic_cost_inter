@@ -1,0 +1,21 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 30px; */
+}
+
+.cardNext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 0;
+  background-color: lightblue;
+  box-shadow: rgb(252, 252, 251) 0px 0px 10px;
+}
